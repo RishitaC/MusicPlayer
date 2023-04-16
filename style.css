@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Merriweather&display=swap");
+
+body {
+  background-color: #fcf8e8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Merriweather", serif;
+  background-color: #753422;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  color: cornsilk;
+}
+
+nav ul li {
+  padding: 0 15px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.mylogo img {
+  width: 50px;
+  padding: 0 10px;
+}
+
+.mylogo {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  min-height: 72vh;
+  color: #faf7f0;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  margin: 30px auto;
+  width: 80%;
+  padding: 10px;
+  background-image: url("b_g.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bottom {
+  position: sticky;
+  height: 80px;
+  color: cornsilk;
+  background-color: #753422;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+#myProgressBar {
+  width: 70vw;
+  cursor: pointer;
+}
+
+.songItemcontainer {
+  margin-top: 50px;
+}
+
+.songItem {
+  height: 30px;
+  display: flex;
+  color: #faf0d7;
+  background-color: #9d5c0d;
+  width: 60%;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.songItem img {
+  width: 28px;
+  border-radius: 20px;
+}
+
+.timeStamp {
+  margin: 0 15px;
+}
+
+.timeStamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+
+}
+.songItemcontainer {
+  position: inherit;
+  width: 50vw;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity .4s ease-in;
+}
